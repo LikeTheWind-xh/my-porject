@@ -1,0 +1,87 @@
+{
+<<<<<<< HEAD
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/manual/manual"
+		
+		},
+		{
+			"path": "pages/recycle/recycle"
+		},
+		{
+			"path": "pages/login/login"
+		
+		},
+		{
+			"path": "pages/activate/activate",
+			"style": {
+				"backgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/recycle/recycleInfo/recycleInfo"
+		
+		},
+		
+		
+		{
+			"path": "pages/index/index"
+		
+		},
+		
+		{
+			"path": "pages/recycle/recycle1/recycle1"
+		
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+=======
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/login/login"
+    },
+    {
+      "path": "pages/activate/activate",
+      "style": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/recycle/recycleInfo/recycleInfo"
+    },
+    {
+      "path": "pages/manual/manual"
+    },
+
+    {
+      "path": "pages/index/index"
+    },
+    {
+      "path": "pages/recycle/recycle"
+    },
+    {
+      "path": "pages/recycle/recycle1/recycle1"
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  }
+>>>>>>> 2505fc121ea30ac735dc49bb59d83ee1215ab6f9
+}
